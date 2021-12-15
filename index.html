@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="levo">
+            <div class="body">
+                <p id="result" class="result"></p>
+                <br>
+                <input type="text" id="calculator" readonly>
+                <br>
+                <div class="line_first">
+                    <div class="knopki1">
+                        <input type="button" value="1" onclick="calc(this.value)">
+                    </div>
+                    <div class="knopki2">
+                        <input type="button" value="2" onclick="calc(this.value)">
+                    </div>
+                    <div class="knopki3">
+                        <input type="button" value="3" onclick="calc(this.value)">
+                    </div> 
+                </div>
+    
+                <div class="line_second">
+                    <div class="knopki4">
+                        <input type="button" value="4" onclick="calc(this.value)">
+                    </div>
+                    <div class="knopki5">
+                        <input type="button" value="5" onclick="calc(this.value)">
+                    </div>
+                    <div class="knopki6">
+                        <input type="button" value="6" onclick="calc(this.value)">
+                    </div>
+                </div>
+            
+                <div class="line_third">
+                    <div class="knopki7">
+                        <input type="button" value="7" onclick="calc(this.value)">
+                    </div>
+                    <div class="knopki8">
+                        <input type="button" value="8" onclick="calc(this.value)">
+                    </div>
+                    <div class="knopki9">
+                        <input type="button" value="9" onclick="calc(this.value)">
+                    </div>
+                </div>
+    
+                <div class="line_fourth">
+                    <div class="knopki0">
+                        <input type="button" value="0" onclick="calc(this.value)">
+                    </div>
+                    <div class="knopki_plus">
+                        <input type="button" value="+" onclick="sumb(this.value)">
+                    </div>
+                    <div class="knopki_minus">
+                        <input type="button" value="-" onclick="sumb(this.value)">
+                    </div>
+                </div>
+                <br>
+                
+                <div class="oshibka">
+                    <p id="error" class="error"></p>
+                </div>
+    
+            </div>
+        </div>
+        
+        <div class="pravo">
+            <!-- <img src="images/calc.gif" alt="calc"> -->
+        </div>
+        
+        <!-- <div class="oshibka">
+            <p id="error" class="error"></p>
+        </div> -->
+
+    </div>
+    
+</body>
+<script src="scripts/script.js">
+</script>
+</html>
